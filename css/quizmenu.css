@@ -1,0 +1,86 @@
+/* MAIN CONTENT*/
+
+h2{
+    font-family: serif monospace;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.jumbotron {
+    background-image: url("https://i.postimg.cc/PJMngBRM/quiz-Jumbotron-Image.jpg");
+    background-repeat: no-repeat;
+    resize: both;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-position: center;
+    border: solid black 2px;
+    background-size: cover;
+    
+}
+
+
+#pro-tiles, #math-tiles, #sci-tiles{
+    border:solid black;
+    width: 85%;
+    height:250px;
+    margin: 20px 10px 20px 10px;
+    background-size:cover;
+    background-position:bottom center !important
+}
+
+#pro-tiles span, #math-tiles span, #sci-tiles span{
+    display:inline-block;
+    background-color: black;
+    font-size: 1.1em;
+    opacity: 0.8;
+    font-weight: bold;
+    color: azure;
+    padding:3px 5px 3px 5px;
+    
+}
+
+#pro-tiles{
+    background: url("../images/proimg.jpg") no-repeat;
+    
+}
+
+#math-tiles{
+  background: url("../images/mathquiz.jpg") no-repeat;  
+}
+
+#sci-tiles{
+    background: url("../images/sciimg.jpg") no-repeat;
+}
+
+@media(max-width: 576px){
+    #pro-tiles, #math-tiles, #sci-tiles{
+    
+    width: 90%;
+    height:200px;
+   
+    
+    background-size:100% 100%;
+    }
+    
+    .jumbotron{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }
+    
+    
+}
+
+/*MAIN CONTENT ENDS HERE*/
+
+
+
+
+
+
+
+
+

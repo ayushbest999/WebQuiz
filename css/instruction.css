@@ -1,0 +1,63 @@
+/* MAIN CONTENT*/
+
+h2{
+    font-family: serif monospace;
+    font-size: 2em;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.jumbotron {
+    background-image: url("https://i.postimg.cc/PJMngBRM/quiz-Jumbotron-Image.jpg");
+    background-repeat: no-repeat;
+    resize: both;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-position: center;
+    border: solid black 2px;
+    background-size: cover;
+    padding-bottom: 20px;
+    padding-top: 20px;
+   
+}
+
+#main-content h3 a{
+    margin:10px;
+    color: white;
+    background-color:darkblue;
+    padding: 3px 5px 3px 5px;;
+    border-radius: 3px;
+    font-size: 0.9em;
+    
+    
+}
+#main-content{
+    background: white;
+    opacity: 0.8;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: black;
+    
+}
+
+@media(max-width:576px){
+    .jumbotron{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }
+}
+
+/*MAIN CONTENT ENDS HERE*/
+
+
+
+
+
+
+
+
