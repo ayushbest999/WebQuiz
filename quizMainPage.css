@@ -1,0 +1,103 @@
+/* MAIN CONTENT*/
+
+h2{
+    font-family: serif monospace;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.jumbotron {
+    background-image: url("https://i.postimg.cc/PJMngBRM/quiz-Jumbotron-Image.jpg");
+    background-repeat: no-repeat;
+    resize: both;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-position: center;
+    border: solid black 2px;
+    background-size: cover;
+}
+
+
+#com-pro-tiles, #math-tiles, #chem-reac-tiles, #periodic-table-tiles, #c-pro-tiles, #phy-tiles, #py-tiles, #java-tiles{
+    border:solid black;
+    width: 85%;
+    height:250px;
+    margin: 20px 10px 20px 10px;
+    background-size:cover;
+    background-position:bottom center !important
+}
+
+#com-pro-tiles span, #math-tiles span, #chem-reac-tiles span, #periodic-table-tiles span, #c-pro-tiles span, #phy-tiles span, #py-tiles span, #java-tiles span{
+    display:inline-block;
+    background-color: black;
+    font-size: 1.1em;
+    opacity: 0.8;
+    font-weight: bold;
+    color: azure;
+    padding:3px 5px 3px 5px;
+    
+}
+
+#com-pro-tiles{
+    background: url("../images/competitiveprogramming.jpg") no-repeat;
+}
+
+#chem-reac-tiles{
+  background: url("../images/chemreacimg.jpg") no-repeat;  
+}
+
+#math-tiles{
+  background: url("../images/mathquiz.jpg") no-repeat;  
+}
+
+#periodic-table-tiles{
+  background: url("../images/chTableF.jpg") no-repeat ; 
+}
+
+#c-pro-tiles{
+    background: url("../images/cproquiz.jpg") no-repeat;
+}
+
+#phy-tiles{
+    background: url("../images/physicsimg.jpg") no-repeat;
+}
+
+#py-tiles{
+    background: url("../images/pythonimg.jpg") no-repeat;
+}
+
+#java-tiles{
+    background: url("../images/javaimg.jpg") no-repeat;
+}
+
+@media(max-width: 576px){
+    #com-pro-tiles, #math-tiles, #chem-reac-tiles, #periodic-table-tiles, #c-pro-tiles, #phy-tiles, #py-tiles, #java-tiles{
+    
+    width: 90%;
+    height:200px;
+   
+    
+    background-size:100% 100%;
+    }
+    
+    .jumbotron{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 40px;
+    }
+    
+}
+
+/*MAIN CONTENT ENDS HERE*/
+
+
+
+
+
+
+
+
+
